@@ -1,0 +1,15 @@
+n = int(input())
+i = 666
+num = 0
+
+while True:
+    tem = str(i)
+    if tem.count('6') >= 3:
+        for j in range(len(tem) - 2):
+            if tem[j] == tem[j+1] == tem[j+2] == '6':
+                num += 1
+                break
+    if num == n:
+        print(i)
+        break
+    i += 1
