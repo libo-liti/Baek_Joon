@@ -24,3 +24,5 @@ int main()
     cout << F(b);
     return 0;
 }
+// 지수법칙 : a^(n+m) = a^n * a^m
+// 모듈러 성질 : (a*b)%c = (a%c * b%c)%c
