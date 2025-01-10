@@ -52,6 +52,7 @@ void Search()
                 break;
             }
 
+        // 어떤 수도 될수 없다면 다시 돌아가기
         if (value == 10)
         {
             grid[y][x] = 0;
